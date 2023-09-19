@@ -3,7 +3,6 @@ using IronXL;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
-using IronXL;
 using System.Data;
 using Microsoft.Data.SqlClient;
 
