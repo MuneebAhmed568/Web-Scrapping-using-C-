@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/madukadu/Github/Scrapping/Scrap_Console/Scrap_Console/Scrap_Console.csproj": {}
+  },
+  "projects": {
+    "/Users/madukadu/Github/Scrapping/Scrap_Console/Scrap_Console/Scrap_Console.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/madukadu/Github/Scrapping/Scrap_Console/Scrap_Console/Scrap_Console.csproj",
+        "projectName": "Scrap_Console",
+        "projectPath": "/Users/madukadu/Github/Scrapping/Scrap_Console/Scrap_Console/Scrap_Console.csproj",
+        "packagesPath": "/Users/madukadu/.nuget/packages/",
+        "outputPath": "/Users/madukadu/Github/Scrapping/Scrap_Console/Scrap_Console/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/madukadu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FreeSpire.XLS": {
+              "target": "Package",
+              "version": "[12.7.0, )"
+            },
+            "IronXL.Excel": {
+              "target": "Package",
+              "version": "[2023.8.19, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "Microsoft.Extensions.Caching.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "Selenium.WebDriver.GeckoDriver": {
+              "target": "Package",
+              "version": "[0.33.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
